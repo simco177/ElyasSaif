@@ -1,14 +1,13 @@
 # Elyas Saif — personal academic website
 
-A buildless HTML/CSS site for GitHub Pages. No package installation, JavaScript, or external font service is needed. The supplied biography and paper abstract are preserved verbatim.
+A buildless HTML/CSS site for GitHub Pages. No package installation, JavaScript, or external font service is needed. The biography includes the approved teaching wording; the supplied paper abstract is preserved verbatim.
 
-## Local status and publication boundary
+## Repository and website
 
-This is a local Git repository. Do not create a GitHub repository, add a remote, push, or enable Pages until Elyas explicitly instructs you to do so.
+Repository: https://github.com/simco177/ElyasSaif
+Website: https://simco177.github.io/ElyasSaif/
 
-Intended repository name: `ElyasSaif`.
-Intended URL: `https://YOUR-USERNAME.github.io/ElyasSaif/`.
-Replace YOUR-USERNAME with the existing GitHub username when publication is authorized. All asset links are relative to support this project URL.
+Elyas authorized the initial GitHub push and publication on 10 November 2026. Future additions can be reviewed locally and pushed separately when requested. All asset links are relative to support the project URL.
 
 ## Preview
 
@@ -37,9 +36,9 @@ Copy the chosen image to `assets/portrait.jpg`. Replace the `portrait-placeholde
 
 Edit text in index.html and design in styles.css. Add research entries inside the research section or a new section before the closing main tag. Add matching navigation links if useful. Use relative file URLs, e.g. `assets/new-paper.pdf`, rather than `/assets/new-paper.pdf`, so links work under `/ElyasSaif/`.
 
-## Later, only after explicit authorization
+## Publishing updates
 
-Create a public GitHub repository named `ElyasSaif`, connect this local repository, and push the reviewed commit. In Settings → Pages, select Deploy from a branch and choose the pushed branch (`codex/personal-website` unless deliberately renamed) and `/ (root)`. GitHub Pages then deploys the website. No workflow file or build step is required.
+GitHub Pages serves the root of the `codex/personal-website` branch. Commit reviewed changes and push that branch to publish an update. No workflow file or build step is required.
 
 A commit records a local snapshot. A push transfers commits to GitHub. Deployment publishes the website. GitHub Pages hosting from a public repository is free; a custom domain is optional and separately registered.
 
