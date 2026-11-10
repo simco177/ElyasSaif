@@ -5,3 +5,5 @@
 @media(max-width:580px){.site-header{align-items:flex-start;gap:20px;flex-direction:column;padding:20px 0}nav{gap:18px;flex-wrap:wrap}.intro{grid-template-columns:1fr;gap:30px;padding:38px 0}.portrait{width:160px;margin:0}.monogram{font-size:50px}.photo-caption{font-size:10px;bottom:14px}h1{font-size:49px}.section{grid-template-columns:1fr;gap:25px;padding:32px 0}h3{font-size:28px}.biography{font-size:15px}.market{font-size:13px}.abstract{font-size:15px}footer{flex-direction:column;gap:4px}.email{overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{background:#fff;border:0}.site-header,footer,.portrait,.skip-link{display:none}main{width:100%}.intro,.section{display:block;padding:20px 0}.section-label{margin-bottom:20px}h1{font-size:36px}h3{font-size:24px}}
+
+.profile-sidebar{min-width:0}.profile-links{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:20px}.profile-links .email{overflow-wrap:anywhere}.profile-links .document-status,.profile-links .document-link{margin:0}.profile-links .document-status{gap:10px}
