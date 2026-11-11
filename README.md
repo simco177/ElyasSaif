@@ -19,14 +19,13 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 Then visit http://127.0.0.1:8765/. Stop the server with Ctrl+C.
 
-## Add a CV or paper
+## Update the CV or add a paper
 
-1. Copy the final CV to `assets/cv.pdf` or paper to `assets/job-market-paper.pdf`.
-2. In `index.html`, find the corresponding `document-status` paragraph.
-3. Replace that paragraph with the ready-to-use anchor in the HTML comment immediately above it.
-4. Preview the link, then commit the files and HTML together.
+The website’s CV link opens `assets/Elyas Saif_CV.pdf`. To update the CV, replace that PDF while keeping its filename, then commit and push the update. The HTML link encodes the space as `%20`.
 
-The PDF anchors open a new browser tab without forcing download. Whether a browser displays or downloads a PDF also depends on the visitor's browser settings. Until actual PDFs are supplied, the page shows honest non-clickable statuses instead of broken links.
+For the full paper, copy the final PDF to `assets/job-market-paper.pdf`. In `index.html`, replace its `document-status` paragraph with the ready-to-use anchor in the HTML comment immediately above it, then preview and commit the PDF and HTML together.
+
+PDF links open a new browser tab without forcing download. Whether a browser displays or downloads a PDF also depends on the visitor's browser settings.
 
 ## Add a portrait
 
